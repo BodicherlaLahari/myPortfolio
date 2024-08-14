@@ -109,4 +109,16 @@ th, td {
     padding: 10px; 
     text-align: left;
 }
-
+#backgr{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-image: url('background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; /* Ensures text is visible on the background */
+    text-align: left;
+    padding: 20px;
+}
